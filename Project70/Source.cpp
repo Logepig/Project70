@@ -1,4 +1,4 @@
-#include "Header.h"
+#include "Source1.cpp"
 
 class Calculator {
 public :
@@ -13,10 +13,13 @@ public :
 	}
 };
 
+
 int main() {
 	Calculator calc;
 	cout << calc.add(6, 4, 3) << endl;
-
+	A* a = new A();
+	a->test();
+	delete a;
 
 	return 0;
 }
